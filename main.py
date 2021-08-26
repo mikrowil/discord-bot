@@ -21,4 +21,4 @@ async def on_message(message):
         await message.channel.send("Yea, this guy knows what he's saying")
 
 
-client.run('ODYwMDk0Mzk3MjU2MTcxNTIw.YN2PVA.ytLXXewA8Mjy-aDlVhfyEQUGhGo')
+client.run(os.environ['BOTCODE'])
